@@ -19,4 +19,14 @@ public class mycalculatortest {
 	int result = calculator.subtract (5,2);
 	Assert.assertEquals(3, result);
 }
+
+//@Test
+//	public void MinusTwoNumbersTest() {
+//	Calculator calculator = new Calculator();
+//	int result = calculator.multiply (5,2);
+//	Assert.assertEquals(10, result);
+//}
+
+
+
 }
