@@ -20,13 +20,20 @@ public class mycalculatortest {
 	Assert.assertEquals(3, result);
 }
 
+
 @Test
-	public void MinusTwoNumbersTest() {
-	Calculator calculator = new Calculator();
-	int result = calculator.multiply (5,2);
-	Assert.assertEquals(10, result);
-}
-
+public void MultiplyTwoNumbersTest() {
+Calculator calculator = new Calculator();
+int result = calculator.multiply (5,2);
+Assert.assertEquals(10, result);
 
 
 }
+@Test
+public void DivideTwoNumbersTest() {
+Calculator calculator = new Calculator();
+int result = calculator.divide (10,2);
+Assert.assertEquals(5, result);
+
+
+}}
